@@ -1,7 +1,8 @@
 The Gradle team is excited to announce Gradle @version@.
 
-We would like to thank the following community contributors to this release of Gradle:
+This release features [1](), [2](), ... [n](), and more.
 
+We would like to thank the following community contributors to this release of Gradle:
 <!-- 
 Include only their name, impactful features should be called out separately below.
  [Some person](https://github.com/some-person)
