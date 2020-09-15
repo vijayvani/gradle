@@ -287,7 +287,7 @@ To use Java 6 or Java 7, the following tasks need to be configured:
 * `Javadoc` task to use the correct `javadoc` executable
 * `Test` and the `JavaExec` task to use the correct `java` executable.
 
-With the usage of Java toolchains, this is now a trivial thing to do:
+With the usage of Java toolchains, this can be done as follows:
 
 ==== Example: Configure Java 7 build
 
@@ -298,7 +298,7 @@ include::sample[dir="snippets/java/crossCompilation/kotlin",files="build.gradle.
 
 The only requirement is to have <<toolchains.adoc#sec:auto_detection,Java 7 installed and Gradle aware of it>>.
 
-You can take a look at what you needed to do with previous Gradle versions https://docs.gradle.org/6.6.1/userguide/building_java_projects.html#compiling_and_testing_java_67[here].
+You can take a look at what you needed to do with Gradle versions up to 6.6 https://docs.gradle.org/6.6.1/userguide/building_java_projects.html#compiling_and_testing_java_67[here].
 
 [[sec:custom_java_source_sets]]
 === Compiling independent sources separately
